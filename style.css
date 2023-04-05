@@ -1,0 +1,81 @@
+body {
+  font-family: arial, sans-serif;
+  background-color: black;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+.container .nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 6px;
+}
+.container .nav .nav-left {
+  padding: 6px;
+}
+.container .nav .nav-left a {
+  color: #fff;
+  text-decoration: none;
+}
+.container .nav .nav-right {
+  padding: 6px;
+  display: flex;
+}
+.container .nav .nav-right .nav-right-menu a {
+  color: #fff;
+}
+.container footer {
+  position: absolute;
+  background-color: gray;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.container footer .ft-1 {
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+  font-size: 15px;
+  color: #9aa0a6;
+}
+.container footer .ft-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+}
+.container footer .ft-2 .ft-2-left {
+  padding: 20px 0;
+}
+.container footer .ft-2 .ft-2-left a {
+  color: #9aa0a6;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 14px;
+}
+.container footer .ft-2 .ft-2-right {
+  display: flex;
+  align-items: center;
+}
+.container footer .ft-2 .ft-2-right a {
+  color: #9aa0a6;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 14px;
+}
+.container footer .ft-2 .ft-2-right .menu-setting .menu-setting-content {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  background-color: black;
+}
+.container footer .ft-2 .ft-2-right .menu-setting .menu-setting-content ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
