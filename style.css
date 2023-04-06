@@ -1,6 +1,6 @@
 body {
   font-family: arial, sans-serif;
-  background-color: black;
+  background-color: #202124;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -17,28 +17,60 @@ body {
 }
 .container .nav .nav-left {
   padding: 6px;
+  padding-top: 12px;
 }
 .container .nav .nav-left a {
   color: #fff;
   text-decoration: none;
 }
 .container .nav .nav-right {
-  padding: 6px;
   display: flex;
+}
+.container .nav .nav-right .nav-right-menu {
+  padding: 6px;
 }
 .container .nav .nav-right .nav-right-menu a {
   color: #fff;
 }
+.container .nav .nav-right .nav-right-menu a svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+.container .nav .nav-right .nav-right-user {
+  padding: 6px;
+}
+.container .nav .nav-right .nav-right-user button {
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.container .body {
+  display: grid;
+  justify-content: center;
+}
+.container .body .body-logo {
+  position: relative;
+}
+.container .body .body-logo img {
+  object-fit: cover;
+  display: block;
+  min-height: 92px;
+  max-height: 92px;
+}
 .container footer {
   position: absolute;
-  background-color: gray;
+  background-color: #171717;
   bottom: 0;
   width: 100%;
   right: 0;
   left: 0;
 }
 .container footer .ft-1 {
-  padding: 15px 30px;
+  padding: 0 30px;
   border-bottom: 1px solid #3c4043;
   font-size: 15px;
   color: #9aa0a6;
@@ -50,7 +82,7 @@ body {
   position: relative;
 }
 .container footer .ft-2 .ft-2-left {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 .container footer .ft-2 .ft-2-left a {
   color: #9aa0a6;
@@ -70,7 +102,7 @@ body {
 }
 .container footer .ft-2 .ft-2-right .menu-setting .menu-setting-content {
   position: absolute;
-  bottom: 60px;
+  bottom: 49px;
   right: 0;
   background-color: black;
 }

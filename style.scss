@@ -1,7 +1,7 @@
 //@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
 body{
     font-family: arial,sans-serif;
-    background-color: black;
+    background-color: #202124;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -13,36 +13,71 @@ main{
 .container{
     height: 100vh;
     position: relative;
+    //Navigation
     .nav{
         display: flex;
         justify-content: flex-end;
         padding: 6px;
         .nav-left{
             padding: 6px;
+            padding-top: 12px;
             a{
                 color: #fff;
                 text-decoration: none;
             }
         }
         .nav-right{
-            padding: 6px;
             display: flex;
             .nav-right-menu{
+                padding: 6px;
                 a{
                     color: #fff;
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                        fill: #fff;
+                    }
+                }
+            }
+            .nav-right-user{
+                padding: 6px;
+                button{
+                    color: #fff;
+                    background-color: green;
+                    border: none;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
                 }
             }
         }
     }
+    //Body-content
+    .body{
+        display: grid;
+        justify-content: center;
+        .body-logo{
+            position: relative;
+            img{
+                object-fit: cover;
+                
+                display: block;
+                min-height: 92px;
+                max-height: 92px;
+            }
+        }
+
+    }
+    //Footer
     footer{
         position: absolute;
-        background-color: gray;
+        background-color:#171717;
         bottom: 0;
         width: 100%;
         right: 0;
         left: 0;
         .ft-1{
-            padding: 15px 30px;
+            padding: 0 30px;
             border-bottom: 1px solid #3c4043;
             font-size: 15px;
             color: #9aa0a6;
@@ -53,7 +88,7 @@ main{
             padding: 0 20px;
             position: relative;
             .ft-2-left{
-                padding: 20px 0;
+                padding: 15px 0;
                 a{
                     color: #9aa0a6;
                     text-decoration: none;
@@ -75,7 +110,7 @@ main{
                     .menu-setting-content{
                         position: absolute;
                         
-                        bottom: 60px;
+                        bottom: 49px;
                         right: 0;
                         background-color: black;
                         ul{
